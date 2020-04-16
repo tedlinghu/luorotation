@@ -50,7 +50,8 @@ print("################################")
 
 
 #one hot encoding of categorical variables
-enc = OneHotEncoder
+enc = OneHotEncoder(handle_unknown = 'ignore')
+
 
 
 
